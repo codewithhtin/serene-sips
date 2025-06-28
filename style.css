@@ -1,12 +1,12 @@
-/*resetting rules..*/
+/*resetting rules */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
   background-color: #f0e2c5;
 }
+/* header section */
 header {
-  border: 2px solid #000;
   text-align: center;
   padding: 50px 0;
 }
@@ -20,14 +20,18 @@ header p {
   font-family: "Lato", sans-serif;
   color: #49281a;
 }
-header button {
+header a {
+  font-family: "Lato", sans-serif;
+  display: block;
   width: 200px;
   height: 40px;
+  line-height: 40px;
   background-color: #49281a;
-  color: white;
+  color: #f0e2c5;
+  text-decoration: none;
   border-radius: 5px;
   border: none;
-  margin-top: 20px;
+  margin: 20px auto 0 auto;
 }
 nav {
   border: 2px solid #000;
@@ -63,18 +67,20 @@ footer {
   margin-bottom: 20px;
 }
 .menu-list {
-  border: 2px solid #2e1717;
+  /*border:2px solid #000;*/
+  text-align: center;
+  margin-top: 20px;
 }
 .menu-list h3 {
   font-family: "Playfair Display SC", serif;
   color: #49281a;
   margin-bottom: 20px;
+  text-align: left;
 }
 .card {
   border: 1px solid #000;
   width: 240px;
   padding: 10px;
-  margin: 20px auto;
   border-radius: 5px;
   font-family: "Lato", sans-serif;
   color: #49281a;
@@ -115,7 +121,7 @@ footer {
 /* contact section */
 form div {
   margin-bottom: 20px;
-  font-family: "Loto" sans-serif;
+  font-family: "Loto", sans-serif;
 }
 .form-label {
   /* border: 1px solid #000; */
@@ -125,7 +131,7 @@ form div {
   margin-right: 10px;
 }
 .form-control {
-  /* display: inlin-block; */
+  /* display: inline-block; */
   width: 300px;
   border: none;
   outline: none;
@@ -145,7 +151,7 @@ form div {
 /* footer section*/
 footer {
   text-align: center;
-  font-family: "Loto" sans-serif;
+  font-family: "Loto", sans-serif;
 }
 footer p {
   font-size: 0.9rem;
