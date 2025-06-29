@@ -50,6 +50,39 @@ nav ul li a {
   color: #49281a;
   text-decoration: none;
 }
+.container {
+  /*width:900px;
+height:300px;
+border:1px solid #000;
+margin:20px auto;*/
+  background-image: url(images/coffee.jpg);
+  background-position: center;
+  background-size: cover;
+  background-color: #49281a;
+  height: 350px;
+  /* color:#f0e2c5;*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.content h1 {
+  font-size: 4rem;
+  color: #f0e2c5;
+  text-align: center;
+  background-color: transparent;
+}
+.content p {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #f0e2c5;
+  background-color: transparent;
+}
+.content {
+  background-color: transparent;
+}
+
 /* our menu section */
 #our-menu,
 #about-us,
